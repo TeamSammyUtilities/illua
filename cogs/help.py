@@ -14,7 +14,6 @@ class Help(commands.Cog):
     @commands.hybrid_command()
     async def help(self, ctx: commands.Context, *, query: Optional[str] = None):
         """Shows all available commands."""
-
         if query is None:
             fields = []
 
@@ -55,8 +54,8 @@ class Help(commands.Cog):
                 embed = discord.Embed(
                     title="Help",
                     description=(
-                        "Use `?help <command>` for more info on a command.\n"
-                        "Use `?help <category>` for more info on a category."
+                        "Use `help <command>` for more info on a command.\n"
+                        "Use `help <category>` for more info on a category."
                     ),
                     color=0x5865F2
                 )

@@ -2,7 +2,8 @@ COGS = [
     "core",
     "database",
     "help",
-    "level"
+    "level",
+    "notification"
 ]
 
 DEVELOPER = [1430914683883491419]

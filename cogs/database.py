@@ -8,9 +8,7 @@ class Database(commands.Cog):
 
         self.database = TinyDB("database.json")
         self.members = self.database.table("members")
-        self.users = self.database.table("users")
         self.guilds = self.database.table("guilds")
-        self.channels = self.database.table("channels")
 
     async def cog_unload(self):
         self.db.close()
