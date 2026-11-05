@@ -24,7 +24,7 @@ DEFAULT = {
 
 
 class Level(commands.Cog):
-    """Level and Experience."""
+    """Level and Experience. Support server-wide leaderboard and level rewards."""
     def __init__(self, bot):
         self.bot = bot
         self.tracker = trackers.CooldownTracker()

@@ -7,7 +7,7 @@ from tinydb import Query
 
 
 class Core(commands.Cog):
-    """Core bot features."""
+    """Core bot features. Such as the bot's basic configuration."""
     def __init__(self, bot):
         self.bot = bot
 
