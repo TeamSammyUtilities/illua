@@ -1,0 +1,16 @@
+Members - Stores individual member data for each guild.
+
+- guild_id (int)   : The ID of the guild the member belongs to.
+- user_id (int)    : The Discord ID of the member.
+- level (int)      : The member's current level.
+- xp (int)         : The member's accumulated experience points.
+- reputation (int) : The member's reputation points.
+
+
+Guilds - Stores server-specific configurations and settings.
+
+- id (int)                  : The unique Discord guild ID.
+- prefixes (list)           : A list of custom prefixes configured for the guild.
+- level_roles (dict)        : Maps level requirements to Discord roles awarded when members reach those levels.
+- greeting_channel (int)    : The ID of the channel where member join messages are sent.
+- farewelling_channel (int) : The ID of the channel where member leave messages are sent.
